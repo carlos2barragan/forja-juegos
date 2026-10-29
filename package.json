@@ -1,0 +1,12 @@
+{
+  "name": "forja-juegos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retos graduados y lecciones para aprender desarrollo de videojuegos con C# y Unity, calificados con pruebas reales.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/verificar.js",
+    "humo": "node scripts/humo.js"
+  },
+  "engines": { "node": ">=20" }
+}

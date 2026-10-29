@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forja Juegos</title>
+<meta name="description" content="Aprende a programar videojuegos: C#, matemáticas, Unity, física, arquitectura e IA de juegos, con lecciones y retos que se ejecutan contra pruebas reales.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FFB45E'/%3E%3Cpath d='M9 13v6M6 16h6' stroke='%2314121F' stroke-width='2.6' stroke-linecap='round'/%3E%3Ccircle cx='21' cy='14' r='1.8' fill='%2314121F'/%3E%3Ccircle cx='24' cy='18' r='1.8' fill='%2314121F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="top">
+  <a class="brand" href="#/" aria-label="Forja Juegos, inicio">
+    <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--amber)"/><path d="M9 13v6M6 16h6" stroke="var(--ground)" stroke-width="2.6" stroke-linecap="round"/><circle cx="21" cy="14" r="1.8" fill="var(--ground)"/><circle cx="24" cy="18" r="1.8" fill="var(--ground)"/></svg>
+    <span>Forja Juegos</span>
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#/" data-nav="home">Mapa</a>
+    <a href="#/aprender" data-nav="aprender">Aprender</a>
+    <a href="#/guia" data-nav="guia">Guía de experto</a>
+  </nav>
+  <div class="rank" id="rank" aria-live="polite"></div>
+</header>
+<main id="main" tabindex="-1"></main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/lessons-ui.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
