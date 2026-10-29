@@ -136,7 +136,7 @@ async function runTests(c, code) {
   if (!hasTests(c)) return null;
   if (c.pruebasIngles) return runEnglish(code, c.pruebasIngles);
   const tc = await findToolchain();
-  if (!tc) return { unavailable: 'No encuentro el SDK de .NET (6 o superior). Instálalo desde dot.net y reinicia el servidor.' };
+  if (!tc) return { unavailable: 'No encuentro el SDK de .NET (7 o superior). Instálalo desde dot.net y reinicia el servidor.' };
   const motor = await buildMotor(tc);
   if (motor.error) return { error: motor.error };
 
